@@ -4,7 +4,8 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "Post"
+    "displayName": "Post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,27 +18,37 @@
       "unique": true,
       "minLength": 3
     },
-    "Date": {
-      "type": "date",
-      "required": true
-    },
     "Authors": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "admin::user"
     },
     "CoverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "SeoDescription": {
-      "type": "string"
+    "Content": {
+      "type": "richtext",
+      "required": true
     },
-    "SeoTitle": {
-      "type": "string"
+    "PostSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-information"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
     }
   }
 }
