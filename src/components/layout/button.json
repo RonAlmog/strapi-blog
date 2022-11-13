@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "battery-empty",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

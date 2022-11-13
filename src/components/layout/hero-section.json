@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CallToAction": {
+      "type": "string",
+      "required": true
+    },
+    "Buttons": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
+    }
+  }
+}
