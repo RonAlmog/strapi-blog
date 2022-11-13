@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_hero_section2s",
+  "info": {
+    "displayName": "HeroSection2",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "CallToAction": {
+      "type": "string",
+      "required": true
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
+    }
+  }
+}
