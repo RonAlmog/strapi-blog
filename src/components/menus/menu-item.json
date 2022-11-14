@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menus_menu_items",
+  "info": {
+    "displayName": "MenuItem",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Label": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
