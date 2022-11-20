@@ -9,7 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@strapi/utils": "^4.5.1"
+  },
   "dependencies": {
     "@strapi/plugin-graphql": "4.5.0",
     "@strapi/plugin-i18n": "4.5.0",

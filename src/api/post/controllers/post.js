@@ -25,4 +25,12 @@ module.exports = createCoreController("api::post.post", ({ strapi }) => ({
 
     return { data, meta };
   },
+  // override with our own function
+  async findOne(ctx) {
+    const { id } = ctx.params;
+    const { query } = ctx;
+    const entity = await strapi.service("api::post.post").findOne(id, query);
+    const sanitiezedEntity = await this.sanitizeOutput(entity, ctx);
+    return this.transformResponse(sanitiezedEntity);
+  },
 }));
