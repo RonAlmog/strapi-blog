@@ -9714,6 +9714,11 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.0.tgz#86b5b5d416c5744b3fdeac6893c2b98196fc1a55"
   integrity sha512-cNNS+VYsXIs5gI6gJipO4qZ8YYT274JHvNnQ1/R/x8Q8mdP0qj0zoMchRXmBNPqp/0eOEhX+3g7g6Fgb7meLIQ==
 
+strapi-plugin-transformer@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-transformer/-/strapi-plugin-transformer-2.1.1.tgz#9ee28783bfb9f2848b3bfd73cc4227d003fe611e"
+  integrity sha512-k9/iHct+VlHu7espK4epupZ7RSRhl3dBgw5nc2PZfSQ8Maq3Kci6Q+QV1uiLfONP6vEY9mbvLpAjY0lam5CQTw==
+
 stream-browserify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-3.0.0.tgz#22b0a2850cdf6503e73085da1fc7b7d0c2122f2f"
